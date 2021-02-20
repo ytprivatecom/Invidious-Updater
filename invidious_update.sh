@@ -909,7 +909,7 @@ docker_repo_chk() {
 
         cd $USER_DIR || exit 1
 
-        git clone https://github.com/iv-org/invidious
+        git clone https://github.com/ytprivatecom/invidious
 
         repoexit
         # Checkout
@@ -1361,7 +1361,7 @@ install_invidious() {
   #sudo -i -u $USER_NAME
   cd $USER_DIR || exit 1
   sudo -i -u invidious \
-    git clone https://github.com/iv-org/invidious
+    git clone https://github.com/ytprivatecom/invidious
   repoexit
   # Checkout
   GetMaster
